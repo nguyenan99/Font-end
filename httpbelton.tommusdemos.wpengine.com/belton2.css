@@ -1,0 +1,113 @@
+*{padding: 0;margin: 0;}
+html, body{
+    height: 100%;
+}
+:root{
+    --font1: 'Oswald', sans-serif;
+    --font2: segoe ui light;
+    --size1: 48px;
+    --lineheight1: 59px;
+    --size2: 21px;
+    --font3:'Amiri', serif;
+    --size3: 21px;
+}
+.banner_top{
+    background: url("http://belton.tommusdemos.wpengine.com/wp-content/uploads/sites/82/2018/04/fullscreen03.jpg") top center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    background-attachment: fixed;
+}
+.banner_top::after{
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-image: -webkit-linear-gradient(left,#e0d8d800 0%,#f9f9f900 50%, transparent 100%);
+    position: absolute;
+
+}
+.banner_top ._3cot{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    z-index: 1;
+    
+}
+.banner_top ._3cot ._1cot{
+    width: 33.33%;
+}
+.banner_top ._3cot .trai{}
+.banner_top ._3cot .trai a{
+    color: white;
+    padding: 10px;
+    display: inline-flex;
+}
+.banner_top ._3cot .giua{
+
+    text-align: center;
+    padding-top: 10px;
+}
+.banner_top ._3cot .giua img{
+    height: 30px;
+}
+.banner_top ._3cot .phai {
+    text-align: right;
+}
+.banner_top ._3cot .phai a{
+    color: white;
+    padding: 10px;
+    display: inline-flex;
+    text-decoration: none;
+}
+.banner_top .text_banner{
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    z-index: 2;
+}
+.text_banner .content{
+    width: 958px;
+    margin: auto;
+}
+.banner_top .text_banner .content .chuto{
+    font-family: var(--font1);
+    line-height: var(--lineheight1);
+    font-size: var(--size1);
+    color: white;
+    width: 50%;
+}
+.banner_top .text_banner .content .chunho{
+    color: white;
+    width: 50%;
+    font-family: var(--font2);
+}
+.content1{
+    width: 958px;
+    margin: auto;
+    display: flex;
+    padding-top: 100px;
+}
+.content1 .trai{
+    width: 30%;
+    
+}
+.content1 .trai .traitren{
+    color: #666666;
+    font-size: var(--size2);
+    font-family: var(--font3);
+    
+}
+.content1 .trai .traiduoi{
+    width: 70%;
+    padding-top: 30px;
+    font-size: var(--size3);
+}
+.content1 .phai{
+    width: 70%;
+    font-size: var(--size3);
+}
+.content1 .phai p{
+    padding-bottom: 30px;
+    color: #666666;
+    line-height: 20px;
+}
