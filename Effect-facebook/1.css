@@ -1,0 +1,60 @@
+*{margin: 0; padding: 0;} 
+
+.thanhxanh {
+    height: 54px;
+    background: #8585cc;
+}
+
+.deClick {
+    padding: 6px 6px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.deClick .fab {
+    font-size: 18px;
+}
+
+.deClick .fa {
+    font-size: 18px;
+}
+
+.cacphantu {width: 250px;float: right;margin-right: 200px;}
+
+.dehienthi {
+    position: absolute;
+    width: 300px;
+    transition: 0.5s;
+    right: -10px;
+    top: 50px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.dehienthi:after {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border: 12px #8585cc solid;
+    border-bottom-color: white;
+    position: absolute;
+    top: -24px;
+    right: 9px;
+}
+
+.dehienthi li {
+    height: 40px;
+}
+
+._1phantu {
+    position: relative;
+    float: left;
+} 
+.mautrang{
+    color: white;
+}
+.ra{
+    opacity: 1;
+    visibility: visible;
+    
+}
